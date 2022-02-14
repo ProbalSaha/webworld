@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{padding:0; margin:0; outline:0}
+body{font-family: 'Open Sans', sans-serif;font-size:14px;line-height:18px;}
+img{width:100%;}
+
+.topsection {
+	background: #252323;
+	padding: 10px 0;
+}
+.logo{float:left;}
+.logo img {
+	padding-top: 20px;
+}
+.social{float:right;}
+.social i {
+	color: #fff;
+	font-size: 30px;
+	margin-left: -12px;
+}
+
+.mainmenu{}
+.top-bar, .top-bar ul {
+	background-color: #fff;
+}
+.top-bar input {
+	background: url("../img/search.jpg")no-repeat scroll 172px center #fff;
+	width: 200px;
+	margin-right: 1rem;
+	margin-top: 15px;
+}
+
+ [type="search"]:focus
+ {
+	background: url("../img/search.jpg")no-repeat scroll 172px center #fff;
+	
+}
+
+.menu > li:not(.menu-text) > a {
+	display: block;
+	padding: 1.7rem 1rem;
+	line-height: 1;
+	color: #8b8b8b;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 2px solid transparent;
+	margin-right: 20px;
+}
+
+.menu > li:not(.menu-text) > a:hover{color:#00BAC6;border-bottom:2px solid #00BAC6;}
+
+.slidersection {
+  background: rgba(0, 0, 0, 0) url("../img/banner.jpg") no-repeat scroll 0 0;
+  color: #fff;
+  padding: 184px 0;
+}
+.item {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.item h2{}
+.item p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.servicesection{}
+.service{}
+.service h2 {
+	color: #818181;
+	font-size: 30px;
+	padding: 10px;
+}
+.service p {
+	font-size: 15px;
+	color: #9A9A9A;
+} 
+.sameservise{}
+.sameservise2{}
+.sameservise2 i {
+	margin-top: 40px;
+	color: #00BAC6;
+	font-size: 130px;
+}
+.sameservise3 {
+	background: url(../img/bg.jpg)no-repeat bottom center;
+	padding-bottom: 80px;
+}
+.sameservise i {
+	font-size: 100px;
+	color: #CACACA;
+}
+.sameservise h3 {
+	font-size: 20px;
+	color: #818181;
+}
+.sameservise p {
+	font-size: 14px;
+	margin:0;
+}
+
+.fa {
+	font-size: 100px;
+	color: #CACACA;
+	padding: 20px;
+}
+
+.productsection {
+	background: #EEEEEE;
+	padding: 45px;
+}
+.sameproduct {
+	margin-bottom: 30px;
+	border: 1px solid #999;
+	padding-top: 0px;
+}
+.sameproduct img{}
+.sameproduct h4 {
+	font-size: 15px;
+	color: #868183;
+}
+.sameproduct p{
+	font-size: 14px;
+	color: #868183;
+}
+.probal {
+	padding: 20px 20px 10px 20px;
+}
+.brandsection {
+	background: #fff;
+	padding: 90px 0;
+	margin-left: 90px;
+}
+.brand {
+	margin-right: 90px;
+}
+.brand img{}
+.brand2 {
+	margin-right: 90px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.brand3 {
+	margin-right: 90px;
+	margin-left: 10px;
+	margin-top: -32px;
+}
+.footersecrion {
+	background: url(../img/background.jpg)repeat;
+	padding-top: 30px;
+}
+.footer{color:#fff;}
+.footer h2 {
+	font-size: 22px;
+}
+.footer p {
+	color: #C0C0C0;
+	font-size: 14px;
+	margin-right: 70px;
+}
+.posttime {
+	background: url(../img/clock.png)no-repeat scroll 0px 3px;
+	padding-left: 20px;
+	color: #818281;
+}
+.colorfull {
+	font-size: 22px;
+	color: #fff;
+}
+.post{
+	color: #C0C0C0;
+	font-size: 14px;
+}
+.address {
+	background: url(../img/map.png)no-repeat scroll 0px 0;
+	padding-left: 30px;
+}
+.email{
+	background:url(../img/mail.png)no-repeat scroll 0px 7px;
+	padding-left: 30px;
+}
+.phone{
+	background:url(../img/phone.png)no-repeat scroll 0px 5px;
+	padding-left: 30px;
+}
+.last {
+	color: #fff;
+	padding-top: 20PX;
+}
